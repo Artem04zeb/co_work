@@ -10,3 +10,6 @@ Me and my friend Dima want to learn algorithms, graphs and other things before M
 
 
 -- 1:18 edit file from gitHub to check downloading system
+
+
+-- ЭТА Я
