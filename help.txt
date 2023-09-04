@@ -1,0 +1,13 @@
+GIT:
+	copy from github: git clone
+
+	git add .
+	git commit -m "comment"
+	
+
+---
+
+Console:
+	to compile: gcc name_in.cpp -lstdc++ -o name_out.o
+
+---
