@@ -1,8 +1,11 @@
 GIT:
 	copy from github: git clone
-
+	
 	git add .
 	git commit -m "comment"
+	[don't use secondly] git remote add origin main https://github.com/Artem04zeb/co_work
+	[don't use secondly] git branch -M main
+	git push
 	
 
 ---
