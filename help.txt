@@ -7,7 +7,7 @@ GIT:
 	[don't use secondly] git branch -M main
 	git push
 	
-
+	update files from github to local - git pull
 ---
 
 Console:
