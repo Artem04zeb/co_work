@@ -31,7 +31,6 @@ void quickSort(int a[], int left, int right){
  }
 
 int main(){
-	srand(time(0));
 	for (int i = 0; i < 10; ++i)
 	{
 		const int N = 10000000;
@@ -42,16 +41,7 @@ int main(){
 			a[j] = rand() % 100;
 		}
 		
-		tm ptr;
-	    time_t lt = time(nullptr);
-
 		quickSort(a, 0, N-1);
-   		
-
-	    localtime_s(&ptr, &lt);
-	    std::cout << ptr.tm_hour << ':' << ptr.tm_min;
-	    std::cout << ':' << ptr.tm_sec;
-		
 	}
 	
 
